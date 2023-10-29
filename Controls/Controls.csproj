@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\bmw.jpg" />
+    <None Remove="Images\mercedes-e-class-220.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bmw.jpg" />
+    <Resource Include="Images\mercedes-e-class-220.png" />
+  </ItemGroup>
+
+</Project>
